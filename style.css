@@ -1,3 +1,22 @@
+@media (min-width: 416px) {
+
+  header span.contact {
+    float: right;
+    width: 40%;
+    margin-right: 20%;
+    font-family: Times New Roman, sans-serif
+  }
+}
+
+@media (max-width: 415px) {
+  header span.contact {
+    float: right;
+    width: 80%;
+    margin-right: 5%;
+    font-family: Times New Roman, sans-serif
+  }
+}
+
 header {
 	width: 100%;
 	float: left;
@@ -12,13 +31,6 @@ header a#logo {
 	float: left;
 	width: 25%;
 	margin-left: 15%;
-}
-
-header span.contact {
-	float: right;
-	width: 40%;
-	margin-right: 20%;
-	font-family: Times New Roman, sans-serif
 }
 
 header span.contact a {
