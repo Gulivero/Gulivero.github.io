@@ -56,6 +56,8 @@ nav a:hover {
 	color: #8c8c8c;
 }
 
+
+
 body {
   width: 100%;
   height: 100%;
@@ -74,9 +76,17 @@ body {
      text-align: justify;
    }
 
-   
-div.container_in img {
-  width: 50%;
+   div.container_in p {
+    width: 100%;
+    text-align: center;
+  }
+
+div.container_in div.container_item img.mySlides {
+  width: 100%;
+}
+
+div.container_item img {
+  width: 75%;
 }
 
    .container {
