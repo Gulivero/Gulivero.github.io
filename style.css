@@ -76,12 +76,12 @@ body {
 
    
 div.container_in img {
-  width: 100%;
+  width: 50%;
 }
 
    .container {
     padding: 70px; 
-    background-image: url(D:/nikita/ProjectKYAR/images/back1.jpg)
+    background-image: url(images/back1.jpg)
    }
 
    .container_in {
