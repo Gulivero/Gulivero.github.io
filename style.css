@@ -53,7 +53,7 @@
   header a#logo {
     font-family: 'Obelix';
     font-weight: bold;
-    font-size: 4em;
+    font-size: 3em;
     color: white;
     float: left;
     width: 25%;
@@ -69,7 +69,7 @@
     color: white;
     float: right;
     margin-left: 10%;
-    font-size: 2em;
+    font-size: 1.4em;
     line-height: 30px;
   }
 
@@ -84,7 +84,7 @@
   }
   div.foot p {
     text-align: center;
-    font-size: 2em;
+    font-size: 1em;
     color: white;
   }
 }
