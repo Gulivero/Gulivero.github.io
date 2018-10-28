@@ -1,4 +1,22 @@
 @media (min-width: 550px) {
+  .container {
+    padding: 5%;
+    background-image: url(images/back1.jpg);
+   }
+   .container_in {
+    display: flex;
+    background-color: white;
+    border-style: solid;
+    border-color: #3e3e3f;
+    border-radius: 25px;
+    border-width: 1px;
+   }
+
+
+   .container_item {
+    flex: 1;
+    padding: 12px;
+  }
   header a#logo {
     font-family: 'Obelix';
     font-weight: bold;
@@ -50,6 +68,17 @@
 }
 
 @media (max-width: 549px) {
+  .container {
+    background-image: url(images/back1.jpg);
+   }
+   .container_in {
+    display: flex;
+    background-color: white;
+   }
+   .container_item {
+    flex: 1;
+    padding: 1%;
+  }
   header a#logo {
     font-family: 'Obelix';
     font-weight: bold;
@@ -57,7 +86,7 @@
     color: white;
     float: left;
     width: 25%;
-    margin-left: 15%;
+    margin-left: 5%;
   }
   header span.contact {
     float: right;
@@ -133,25 +162,9 @@ div.container_item img {
   width: 75%;
 }
 
-   .container {
-    padding: 70px; 
-    background-image: url(images/back1.jpg);
-   }
+   
 
-   .container_in {
-    display: flex;
-    background-color: white;
-    border-style: solid;
-    border-color: #3e3e3f;
-    border-radius: 25px;
-    border-width: 1px;
-   }
-
-
-   .container_item {
-    flex: 1;
-    padding: 12px;
-  }
+   
 
   footer {
     width: 100%;
