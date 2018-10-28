@@ -1,20 +1,99 @@
-@media (min-width: 416px) {
-
+@media (min-width: 550px) {
+  header a#logo {
+    font-family: 'Obelix';
+    font-weight: bold;
+    font-size: 2.5em;
+    color: white;
+    float: left;
+    width: 25%;
+    margin-left: 15%;
+  }
   header span.contact {
     float: right;
     width: 40%;
     margin-right: 20%;
     font-family: Times New Roman, sans-serif
   }
+  header span.contact a {
+    color: white;
+    float: right;
+    margin-left: 10%;
+    font-size: 1.4em;
+    line-height: 30px;
+  }
+
+  
+  nav a:first-child {
+    margin-left: 12%; 
+    border-top: 5px solid #6accd7;
+  }
+  
+  nav a {
+    border-top: 5px solid rgba(255,255,255,0);
+    padding: 0.5% 1% 0 1%;
+    float: left;
+    margin-right: 4%;
+    font-family: Times New Roman, sans-serif;
+    font-size: 1.4em;
+    color: #686869;
+  }
+  
+  nav a:hover {
+    border-top: 5px solid #6accd7;
+    color: #8c8c8c;
+  }
+  div.foot p {
+    text-align: center;
+    font-size: 1em;
+    color: white;
+  }
 }
 
-@media (max-width: 415px) {
+@media (max-width: 549px) {
+  header a#logo {
+    font-family: 'Obelix';
+    font-weight: bold;
+    font-size: 4em;
+    color: white;
+    float: left;
+    width: 25%;
+    margin-left: 15%;
+  }
   header span.contact {
     float: right;
     width: 80%;
     margin-right: 5%;
     font-family: Times New Roman, sans-serif
   }
+  header span.contact a {
+    color: white;
+    float: right;
+    margin-left: 10%;
+    font-size: 2em;
+    line-height: 30px;
+  }
+
+  nav a {
+
+    width: 100%;
+    float: left;
+    font-family: Times New Roman, sans-serif;
+    font-size: 2em;
+    color: #686869;
+    margin-left: 10%
+  }
+  div.foot p {
+    text-align: center;
+    font-size: 2em;
+    color: white;
+  }
+}
+
+nav {
+  width: 98%;
+  float: left;
+  background-color: #ffffff;
+  padding: 0 1% 0.7% 1%;
 }
 
 header {
@@ -22,53 +101,6 @@ header {
 	float: left;
 	background-color: #3e3e3f;
 }
-
-header a#logo {
-  font-family: 'Obelix';
-  font-weight: bold;
-	font-size: 2.5em;
-	color: white;
-	float: left;
-	width: 25%;
-	margin-left: 15%;
-}
-
-header span.contact a {
-	color: white;
-	float: right;
-	margin-left: 10%;
-	font-size: 1.4em;
-	line-height: 30px;
-}
-
-nav {
-	width: 98%;
-	float: left;
-	background-color: #ffffff;
-	padding: 0 1% 0.7% 1%;
-}
-
-nav a:first-child {
-	margin-left: 12%; 
-	border-top: 5px solid #6accd7;
-}
-
-nav a {
-	border-top: 5px solid rgba(255,255,255,0);
-	padding: 0.5% 1% 0 1%;
-	float: left;
-	margin-right: 4%;
-	font-family: Times New Roman, sans-serif;
-	font-size: 1.4em;
-	color: #686869;
-}
-
-nav a:hover {
-	border-top: 5px solid #6accd7;
-	color: #8c8c8c;
-}
-
-
 
 body {
   width: 100%;
@@ -103,12 +135,16 @@ div.container_item img {
 
    .container {
     padding: 70px; 
-    background-image: url(images/back1.jpg)
+    background-image: url(images/back1.jpg);
    }
 
    .container_in {
     display: flex;
     background-color: white;
+    border-style: solid;
+    border-color: #3e3e3f;
+    border-radius: 25px;
+    border-width: 1px;
    }
 
 
@@ -123,11 +159,7 @@ div.container_item img {
     background-color: #3e3e3f;
   }
 
-  div.foot p {
-    text-align: center;
-    font-size: 16px;
-    color: white;
-  }
+ 
 /* Кнопка "вверх" */
   div.scrollup {
     position: fixed; /* фиксированная позиция */
