@@ -72,12 +72,13 @@
     background-image: url(images/back1.jpg);
    }
    .container_in {
-    display: flex;
     background-color: white;
    }
    .container_item {
-    flex: 1;
     padding: 1%;
+  }
+  .ab {
+    margin-left: 15%;
   }
   header a#logo {
     font-family: 'Obelix';
